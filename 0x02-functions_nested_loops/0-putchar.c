@@ -1,19 +1,16 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * main - entry point
- * Return: Always 0 (success)
+ * main- This program prints _putchar.c
+ *Return: returns 0 always
  */
+
 int main(void)
 {
-	char c[] = "_putchar";
-	int i = 0;
+	char str[8] = "_putchar";
 
-	while (i <= 7)
-	{
-		_putchar(c[i]);
-		i++;
-	}
-	_putchar('\n');
-	return (0);
+	printf(str, '\n');
+	putchar('\n');
+
+return (0);
 }
+
